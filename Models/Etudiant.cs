@@ -5,6 +5,8 @@
         public int Id { get; set; }
         public string Nom { get; set; }
         public string Prenom { get; set; }
+        public string Referentiel { get; set; }
+        public string INE { get; set; }
         public string datecreation { get; set; }
 
         public Etudiant() { }

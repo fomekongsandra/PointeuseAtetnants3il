@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace _3ilApi.Models
 {
-    public class EtudiantContext:DbContext
+    public class EtudiantContext:DbContext 
     {
         public EtudiantContext(DbContextOptions<EtudiantContext> options)
            : base(options)
